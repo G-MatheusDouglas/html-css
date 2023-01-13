@@ -34,6 +34,7 @@ header > h1 {
     color: white;
     font-family: Passion One, Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
+    font-variant: small-caps;
     font-size: 9vw;
 }
 
