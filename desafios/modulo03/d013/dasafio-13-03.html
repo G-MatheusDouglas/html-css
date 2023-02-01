@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 500px;
+        }
+
+        caption {
+            background-color: lightgray;
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        tr.tstrong {
+            background-color: gray;
+            color: white;
+            border: 2px solid black;
+        }
+
+        th, td {
+            padding: 3px;
+        }
+
+        th {
+            border: 2px solid black;
+        }
+
+        th.tleft {
+            text-align: left;
+        }
+
+        td {
+            border: 1px solid black;
+            text-align: center;
+        }
+
+        tfoot > tr > td {
+            background-color: lightgray;
+            font-size: 0.8em;
+            font-weight: bold;
+            padding: 5px;
+        }
+
+        tfoot > tr > td> a {
+            text-decoration: none;
+            font-weight: 800;
+            color: black;
+        }
+        
+        tfoot > tr > td> a:hover {
+            text-decoration: underline;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <caption>
+                Notas dos Alunos
+            </caption>
+        </thead>
+        <tbody>
+            <tr class="tstrong">
+                <th rowspan="2" scope="col">Área</th>
+                <th rowspan="2" scope="col">Disciplinas</th>
+                <th colspan="2" scope="colgroup">Notas</th>
+                <th rowspan="2" scope="col">Média</th>
+            </tr>
+            <tr class="tstrong">
+                <th scope="col">Nota 1</th>
+                <th scope="col">Nota 2</th>
+            </tr>
+            <tr>
+                <th rowspan="4" scope="rowgroup">Exatas</th>
+                <th class="tleft" scope="row">Matemática</th>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th class="tleft" scope="row">Física</th>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th class="tleft" scope="row">Química</th>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th class="tleft" scope="row">Biologia</th>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr class="tstrong">
+                <th class="tleft" colspan="4" scope="row">Médias de Exatas</th>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th rowspan="2" scope="rowgroup">Humanas</th>
+                <th class="tleft" scope="row">História</th>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th class="tleft" scope="row">Geografia</th>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr class="tstrong">
+                <th class="tleft" colspan="4" scope="row">Médias de Humanas</th>
+                <td>0.0</td>
+            </tr>
+        </tbody>
+        <tfoot>
+                <tr>
+                    <td colspan="5">Tabela criada por <a href="https://github.com/g-matheusdouglas" target="_blank" rel="author">Matheus Douglas</a></td>
+                </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
