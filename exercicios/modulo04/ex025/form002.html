@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <form action="cadastro.php" method="get">
+        <p> <!-- Foto de perfil -->
+            <label for="ifoto">Foto do perfil:</label>
+            <input type="file" name="foto" id="ifoto" accept="image/jpeg">
+        </p>
+        <p> <!-- Seleção do Sexo -->
+            <fieldset style="width: 100px;">
+                <legend>Sexo</legend>
+                <input type="radio" name="sex" id="isexmasc" checked>
+                <label for="isexmasc">Masculino</label>
+                <input type="radio" name="sex" id="isexfem">
+                <label for="isexfem">Feminino</label>
+            </fieldset>
+        </p>
+        <p> <!-- Número de telefone -->
+            <label for="itel">Telefone:</label>
+            <input type="tel" name="tel" id="itel" pattern="\ ([0-9] {2}\) ([\s]) [0-9] {4,6}-[0-9] {4}" placeholder="(XX) XXXX-XXXX">
+        </p>
+        <p> <!-- Email eletronico -->
+            <label for="imail">E-mail:</label>
+            <input type="email" name="mail" id="imail" size="30" maxlength="50">
+        </p>
+        <p> <!-- Cria/Entrar senha-->
+            <label for="isenha">Senha:</label>
+            <input type="password" name="senha" id="isenha" minlength="3" maxlength="8" size="8">
+        </p>
+        <p> <!-- Mês de aniversário -->
+            <label for="imes">Mês de aniversário:</label>
+            <input type="month" name="mes" id="imes">
+        </p>
+        <p> <!-- Dia da compra -->
+            <label for="idata">Dia da compra:</label>
+            <input type="date" name="data" id="idata">
+        </p>
+        <p> <!-- Hora da compar -->
+            <label for="ihora">Hora da compra</label>
+            <input type="time" name="data" id="ihora">
+        </p>
+        <p> <!-- Seleção de cor -->
+            <label for="icor">Cor:</label>
+            <input type="color" name="cor" id="icor" value="#000000">
+        </p>
+        <p> <!-- Barra de seleção -->
+            <label for="isat">Nível de satisfação:</label>
+            <input type="range" name="sat" id="isat" min="0" max="4" value="2">
+        </p>
+        <p> <!-- Caixa de seleção -->
+            <input type="checkbox" name="aceito" id="iaceito">
+            <label for="iaceito">Aceito os <a href="termos.html">termos de uso</a></label>
+        </p>
+        <p> <!-- Botões de (submit) e (reset) -->
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
