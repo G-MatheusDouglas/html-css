@@ -4,58 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formularios</title>
+    <title>Formulário</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
 </head>
 <body>
-    <form action="cadastro.php" method="get">
+    <h1>Teste de Formulário</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
         <p>
-            <label for="imod">Modelo do celular</label>
-            <select name="modelo" id="imod">
-                <option value="">Escolha...</option>
-                <optgroup label="Apple">
-                    <option value="AIP1132">iPhone 11 32GB</option>
-                    <option value="AIP11P64">iPhone 11 Pro 64GB</option>
-                    <option value="AIP11PM256">iPhone 11 Pro Max 256GB</option>
-                </optgroup>
-                <optgroup label="Samgung">
-                    <option value="SGXYS10">Galaxy S10 Lite</option>
-                    <option value="SGXYS20U128">Galaxy S20 Ultra 128GB</option>
-                    <option value="SGXYN10256">Galaxy Note10 256GB</option>
-                </optgroup>
-            </select>
+            <label for="inome">Nome:</label>
+            <input type="text" name="nome" id="inome" required maxlength="30" placeholder="Nome completo" autocomplete="name">
         </p>
         <p>
-            <label for="idesc">Especifacacões técnicas:</label><br>
-            <textarea name="desc" id="idesc" cols="40" rows="10"></textarea>
+            <label for="imedia">Média:</label> <!-- input seletor de Númerico -->
+            <input type="number" name="media" id="imedia" min="0" max="10" placeholder="0 a 10" step="0.1" value="5" required>
         </p>
         <p>
-            <label for="iprof">Profissão:</label>
-            <input type="text" name="prof" id="iprof" list="lstprof">
-            <datalist id="lstprof">
-                <optgroup label="Negócios">
-                    <option value="Administrador"></option>
-                    <option value="Contabilista"></option>
-                    <option value="Gestor de RH"></option>
-                </optgroup>
-                <optgroup label="Artes e Design">
-                    <option value="Animador"></option>
-                    <option value="Ator"></option>
-                    <option value="Fotógrafo"></option>
-                </optgroup>
-                <optgroup label="Ciências Exatas">
-                    <option value="Analista de Sistemas"></option>
-                    <option value="Estatístico"></option>
-                    <option value="Matemático"></option>
-                </optgroup>
-                <optgroup label="Ciências Humanas">
-                    <option value="Advogado"></option>
-                    <option value="Linguista"></option>
-                    <option value="Professor"></option>
-                </optgroup>
-            </datalist>
+            <label for="imes">Período Letivo:</label> <!-- input seletor de Mês -->
+            <input type="month" name="mes" id="imes" value="2023-02">
+        </p>
+        <p>
+            <label for="idia">Dia da Prova:</label> <!-- input seletor de Dia -->
+            <input type="date" name="dia" id="idia" value="2023-02-15">
+        </p>
+        <p>
+            <label for="ihora">Horário da Prova</label> <!-- input seletor de Hora -->
+            <input type="time" name="hora" id="ihora">
         </p>
         <p>
             <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
         </p>
     </form>
 </body>
