@@ -6,3 +6,107 @@
     Lilás: #5f2c82
 */
 
+/* Typical Device Breakpoints 
+-------------------------------------
+Pequenas Telas: até 600px
+Celular: até 600px até 768px
+Tablet: 768px até 992px
+Desktop: 992px até 1200px
+Grandes telas: acima de 1200px
+-------------------------------------
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor0: #5f2c82;
+    --cor1: #49a09d;
+    --cor2: #193c3a;
+    --cor3: #79bdba;
+    --font0: Segoe UI, Arial, Helvetica, sans-serif;
+}
+
+main {
+    font-family: var(--font0);
+    background-color: var(--cor0);
+    position: relative;
+    font-size: 0.8em;
+    width: 100vw;
+    height: 100vh;
+}
+
+section#login {
+    background-color: white;
+    width: 250px;
+    height: 480px;
+    border-radius: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+main > h1 {
+    text-align: center;
+    font-size: 1.8em;
+}
+
+div#imagem {
+    background-image: url(../imagens/metal-building.jpg);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+    width: 250px;
+    height: 200px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+div#formulario {
+    padding: 10px;
+}
+
+div#formulario > h1 {
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+div#formulario > p {
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.entrada {
+    background-color: var(--cor0);
+    margin-bottom: 5px;
+    width: 230px;
+    padding: 2px;
+    border-radius: 8px;
+}
+
+.entrada > input {
+    width: 180px;
+    height: 25px;
+    border-radius: 8px;
+    padding: 5px;
+    font-size: 1.2em;
+    background-color: var(--cor3);
+}
+
+.botão {
+    width: 220px;
+    height: 25px;
+    padding: 5px; 
+    text-align: center;
+}
+
+
+.botão > a {
+    color: var(--cor2);
+    text-decoration: none;
+    font-size: 1.2em;
+}
