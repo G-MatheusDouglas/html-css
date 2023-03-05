@@ -21,6 +21,14 @@
     --cor3: #79bdba;
 }
 
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 40
+}
+
 body, html {
     background-color: var(--cor0);
     height: 100vh;
@@ -29,7 +37,6 @@ body, html {
 
 main {
     position: relative;
-    font-size: 0.8em;
     width: 100vw;
     height: 100vh;
 }
@@ -45,14 +52,8 @@ section#login {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-
-    transition: width .3s, heigth .3s; /* Anotar */
+    transition: width .3s, heigth .3s;
     transition-timing-function: ease;
-}
-
-main > h1 {
-    text-align: center;
-    font-size: 1.8em;
 }
 
 section#login > div#imagem {
@@ -71,43 +72,10 @@ section#login > div#formulario {
 
 div#formulario > h1 {
     text-align: center;
-    font-size: 1.8em;
-    font-weight: bolder;
     margin-bottom: 10px;
 }
 
 div#formulario > p {
-    text-align: left;
-    margin-bottom: 5px;
+    font-size: .8em;
 }
 
-.entrada {
-    background-color: var(--cor0);
-    margin-bottom: 5px;
-    width: 230px;
-    padding: 2px;
-    border-radius: 8px;
-}
-
-.entrada > input {
-    width: 180px;
-    height: 25px;
-    border-radius: 8px;
-    padding: 5px;
-    font-size: 1.2em;
-    background-color: var(--cor3);
-}
-
-.botão {
-    width: 220px;
-    height: 25px;
-    padding: 5px; 
-    text-align: center;
-}
-
-
-.botão > a {
-    color: var(--cor2);
-    text-decoration: none;
-    font-size: 1.2em;
-}
