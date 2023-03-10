@@ -73,9 +73,8 @@
         Cordel Moderno</p>
     </li>
     <li>
-    <p>Desafio 013</p>
+    <p>Desafio 013 Tabelas em HTML</p>
         <ol type="1">
-            <p>Tabelas em HTML</p>
             <li>
                 <p><a href="https://g-matheusdouglas.github.io/html-css/desafios/modulo03/d013/desafio-13-01.html" rel ="external" target="_blank">Desafio de Mesclagem 01</a>
                 </p>
@@ -90,6 +89,7 @@
             </li>
         </ol>
     </li>
+    <!-- MODULO 04 -->
     <li>
         <p><a href="https://g-matheusdouglas.github.io/html-css/desafios/modulo04/d014/" rel ="external" target="_blank">Desafio 014</a>
         Redes Sociais</p>
