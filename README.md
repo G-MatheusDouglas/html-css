@@ -22,34 +22,40 @@
 <h2>Desafios de HTML5 CSS3</h2>
 <ul>
     <li>
-        <a href="https://g-matheusdouglas.github.io/html-css/desafios/modulo01/d001/" rel="external" target="_blank">Desafio 001</a>
-        <p>Desafio das Mensagens</p>
+        <p><a href="https://g-matheusdouglas.github.io/html-css/desafios/modulo01/d001/" rel="external" target="_blank">Desafio 001</a>
+        <small>Desafio das Mensagens</small></p>
     </li>
    <li>
-        <a href="https://g-matheusdouglas.github.io/html-css/desafios/modulo01/d002/" rel ="external" target="_blank">Desafio 002</a>
-        <p>Desafio das Imagens</p>
+        <p><a href="https://g-matheusdouglas.github.io/html-css/desafios/modulo01/d002/" rel ="external" target="_blank">Desafio 002</a>
+        <small>Desafio das Imagens</small></p>
     </li>
     <li>
-        <a href="https://g-matheusdouglas.github.io/html-css/desafios/modulo01/d003/" rel ="external" target="_blank">Desafio 003</a>
-        <p>Desafio do Mapa</p>
+        <p><a href="https://g-matheusdouglas.github.io/html-css/desafios/modulo01/d003/" rel ="external" target="_blank">Desafio 003</a>
+        <small>Desafio do Mapa</small></p>
     </li>
     <li>
-        <a></a>
+        <p><a href="https://g-matheusdouglas.github.io/html-css/desafios/modulo01/d004/" rel ="external" target="_blank">Desafio 004</a>
+        <small>Meus Emojis favoritos</small></p>
     </li>
     <li>
-        <a></a>
+        <p><a href="https://g-matheusdouglas.github.io/html-css/desafios/modulo01/d005/" rel ="external" target="_blank">Desafio 003</a>
+        <small>Minhas redes sociais</small></p>
     </li>
     <li>
-        <a></a>
+        <p><a href="https://g-matheusdouglas.github.io/html-css/desafios/modulo01/d006/" rel ="external" target="_blank">Desafio 006</a>
+        <small>Tags em HTML</small></p>
     </li>
     <li>
-        <a></a>
+        <a href="https://g-matheusdouglas.github.io/html-css/desafios/modulo01/d007/" rel ="external" target="_blank">Desafio 007</a>
+        <small><p>Imagem Flexível</small></p>
     </li>
     <li>
-        <a></a>
+        <p><a href="https://g-matheusdouglas.github.io/html-css/desafios/modulo01/d008/" rel ="external" target="_blank">Desafio 008</a>
+        <small>Desafio da Navegação</small></p>
     </li>
     <li>
-        <a></a>
+        <p><a href="https://g-matheusdouglas.github.io/html-css/desafios/modulo01/d009/" rel ="external" target="_blank">Desafio 008</a>
+        <small>Vídeos legais para assistir</small></p>
     </li>
     <li>
         <a></a>
