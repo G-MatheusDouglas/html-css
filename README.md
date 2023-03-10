@@ -20,7 +20,7 @@
 </ul>
 <br>
 <h2>Desafios de HTML5 CSS3</h2>
-<ul>
+<ul columns=" 2">
     <!-- MODULO 01 -->
     <li>
         <p><a href="https://g-matheusdouglas.github.io/html-css/desafios/modulo01/d001/" rel="external" target="_blank">Desafio 001</a>
@@ -74,7 +74,7 @@
     </li>
     <li>
     <p>Desafio 013 Tabelas em HTML</p>
-        <ol type="1" style="columns: 2;">
+        <ol type="1">
             <li>
                 <p><a href="https://g-matheusdouglas.github.io/html-css/desafios/modulo03/d013/desafio-13-01.html" rel ="external" target="_blank">Desafio de Mesclagem 01</a>
                 </p>
