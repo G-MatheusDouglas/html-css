@@ -19,19 +19,19 @@
     </li>
 </ul>
 <br>
-<h2>Desafios de HTML5 CSS3<h2>
+<h2>Desafios de HTML5 CSS3</h2>
 <ul>
     <li>
         <a href="https://g-matheusdouglas.github.io/html-css/desafios/modulo01/d001/" rel="external" target="_blank">Desafio 001</a>
-        <!-- <p>Desafio das Mensagens</p> -->
+        <p>Desafio das Mensagens</p>
     </li>
    <li>
         <a href="https://g-matheusdouglas.github.io/html-css/desafios/modulo01/d002/" rel ="external" target="_blank">Desafio 002</a>
-        <!-- <p>Desafio das Imagens</p> -->
+        <p>Desafio das Imagens</p>
     </li>
     <li>
         <a href="https://g-matheusdouglas.github.io/html-css/desafios/modulo01/d003/" rel ="external" target="_blank">Desafio 003</a>
-        <!-- <p>Desafio do Mapa</p> -->
+        <p>Desafio do Mapa</p>
     </li>
     <li>
         <a></a>
