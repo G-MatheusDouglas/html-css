@@ -74,7 +74,7 @@
     </li>
     <li>
     <p>Desafio 013 Tabelas em HTML</p>
-        <ol type="1">
+        <ol type="1" style="columns: 2;">
             <li>
                 <p><a href="https://g-matheusdouglas.github.io/html-css/desafios/modulo03/d013/desafio-13-01.html" rel ="external" target="_blank">Desafio de Mesclagem 01</a>
                 </p>
