@@ -20,7 +20,7 @@
 </ul>
 <br>
 <h2>Desafios de HTML5 CSS3</h2>
-<ul columns=" 2">
+<ul>
     <!-- MODULO 01 -->
     <li>
         <p><a href="https://g-matheusdouglas.github.io/html-css/desafios/modulo01/d001/" rel="external" target="_blank">Desafio 001</a>
