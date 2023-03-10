@@ -73,7 +73,7 @@
         Cordel Moderno</p>
     </li>
     <li>
-    <h3>Desafio 013<h3>
+    <h3>Desafio 013</h3>
         <ol>
             <li>
                 <p><a href="https://g-matheusdouglas.github.io/html-css/desafios/modulo03/d013/desafio-13-01.html" rel ="external" target="_blank">Desafio de Mesclagem 01</a>
